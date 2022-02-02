@@ -5,7 +5,15 @@ body {
     margin-top: 10px;
     padding: 0;
 }
+.points {
+    display: flex;
+    align-items: center;
+    gap:15px;
 
+}
+.versus {
+    width: 200px;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -13,18 +21,11 @@ body {
 .top {
     display: flex;
     justify-content: center;
-    align-items: center;
-
 }
-.img1 {
-    width: 200px;
+.top-picture {
+    width: 800px;
     height: 200px;
-    border-radius: 12px;
-    border: 3px solid black;
-}
-.img2 {
-    width: 150px;
-    height: auto;
+    margin-left: 120px;
 }
 #pick {
     align-items: center;
@@ -39,7 +40,7 @@ body {
 }
 .choose {
     margin: 20px;
-    text-shadow: 2px 1px rgb(241, 10, 10);
+    text-shadow: 1px 1px 0px #fff, 7px 6px 0px rgba(0,0,0,0.15);
     font-size: 48px;
     display: flex;
     flex-direction: column;
